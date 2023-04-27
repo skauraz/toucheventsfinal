@@ -9,22 +9,22 @@
 <body>
     <script>
         document.addEventListener('touchstart', function(event) {
-  console.log('Touch started at (' + event.touches[0].clientX + ', ' + event.touches[0].clientY + ')');
+  alert('Touch started at (' + event.touches[0].clientX + ', ' + event.touches[0].clientY + ')');
 });
 
 document.addEventListener('touchmove', function(event) {
-  console.log('Touch moved to (' + event.touches[0].clientX + ', ' + event.touches[0].clientY + ')');
+  alert('Touch moved to (' + event.touches[0].clientX + ', ' + event.touches[0].clientY + ')');
 });
 
 document.addEventListener('touchend', function(event) {
-  console.log('Touch ended at (' + event.changedTouches[0].clientX + ', ' + event.changedTouches[0].clientY + ')');
+  alert('Touch ended at (' + event.changedTouches[0].clientX + ', ' + event.changedTouches[0].clientY + ')');
 });
 document.addEventListener('click', function(event) {
-  console.log('Clicked at (' + event.clientX + ', ' + event.clientY + ')');
+  alert('Clicked at (' + event.clientX + ', ' + event.clientY + ')');
 });
 
 document.addEventListener('touchend', function(event) {
-  console.log('Touch ended at (' + event.changedTouches[0].clientX + ', ' + event.changedTouches[0].clientY + ')');
+  alert('Touch ended at (' + event.changedTouches[0].clientX + ', ' + event.changedTouches[0].clientY + ')');
 });
 
 
